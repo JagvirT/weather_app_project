@@ -49,6 +49,9 @@ const get_weather = async (city_name) => {
     } else if (forecast_main === 'Rain'){
         document.querySelector('.card').style.backgroundImage= "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt_N3mgajhyeHZ15XcG0_VdnybnmYlb0E-qQ&usqp=CAU')"
         document.querySelector('.main_part').style.backgroundImage= "url('https://www.icegif.com/wp-content/uploads/2021/10/icegif-460.gif')"
+    } else if (forecast_main === 'Snow'){
+        document.querySelector('.card').style.backgroundImage= "url('https://www.treehugger.com/thmb/DaW05sIPUUrCEDOa5ht63oXp5Oo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2014__12__snowflake-84c87424d5734b03ab1ca695c5a423c6.jpg')"
+        document.querySelector('.main_part').style.backgroundImage= "url('https://i.gifer.com/67X.gif')"
     }
 
 
