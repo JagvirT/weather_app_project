@@ -1,0 +1,69 @@
+body {
+    color: rgb(194, 216, 26);
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #CFD8DC;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.istockphoto.com/id/531889697/photo/weather-forecast-concept.jpg?b=1&s=170667a&w=0&k=20&c=Jci9nrgcCSfOx8ZgfO9KbMKr3r0i28B1fwN20r8KmFA=');
+}
+
+.card {
+    background-image: url("");
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #809e13;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.time-font {
+    font-size: 50px;
+}
+
+.sm-font {
+    font-size: 18px;
+}
+
+.med-font {
+    font-size: 28px;
+}
+
+.large-font {
+    font-size: 60px;
+}
+
+.city-data{
+    margin-top: 10vh;
+}
+
+.forecast{
+    position: relative;
+    bottom: 2vh; 
+    font-size: 32px;  
+}
+
+.forecast2{
+    position: relative;
+    bottom: 2vh;  
+    font-size: 20px; 
+}
+
+.min_temp{
+    font-size: 24px;
+}
+
+.max_temp{
+    font-size: 24px;
+}
+
+.humidity{
+    font-size: 24px;
+}
+
+.current_temp{
+    font-size: 50px;
+    color: rgb(28, 65, 152)
+}
